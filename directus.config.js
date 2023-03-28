@@ -29,5 +29,7 @@ module.exports = function (env) {
     STORAGE_CLOUDINARY_ACCESS_MODE: 'public',
 
     MAX_PAYLOAD_SIZE: '50mb',
+    CACHE_ENABLED: 'true',
+    CACHE_TTL: '7days',
   };
 };
