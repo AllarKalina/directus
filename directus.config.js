@@ -27,5 +27,7 @@ module.exports = function (env) {
     STORAGE_CLOUDINARY_API_KEY: env.CLOUDINARY_KEY,
     STORAGE_CLOUDINARY_API_SECRET: env.CLOUDINARY_SECRET,
     STORAGE_CLOUDINARY_ACCESS_MODE: 'public',
+
+    MAX_PAYLOAD_SIZE: '50mb',
   };
 };
