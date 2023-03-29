@@ -21,6 +21,7 @@ module.exports = function (env) {
     DB_USER: env.PGUSER,
     DB_PASSWORD: env.PGPASSWORD,
 
+    ASSETS_CACHE_TTL: '1m',
     MAX_PAYLOAD_SIZE: '50mb',
   };
 };
