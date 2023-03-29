@@ -1,1 +1,1 @@
-web: npx directus bootstrap && npx directus start
+web: npx directus database install && npx directus bootstrap && npx directus start
