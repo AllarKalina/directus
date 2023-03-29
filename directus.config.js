@@ -21,9 +21,6 @@ module.exports = function (env) {
     DB_USER: env.PGUSER,
     DB_PASSWORD: env.PGPASSWORD,
 
-    STORAGE_LOCATIONS: 'local',
-    STORAGE_LOCAL_ROOT: './uploads',
-
     MAX_PAYLOAD_SIZE: '50mb',
     CACHE_ENABLED: 'true',
     CACHE_TTL: '7days',
