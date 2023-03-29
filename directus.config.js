@@ -22,7 +22,5 @@ module.exports = function (env) {
     DB_PASSWORD: env.PGPASSWORD,
 
     MAX_PAYLOAD_SIZE: '50mb',
-    CACHE_ENABLED: 'true',
-    CACHE_TTL: '7days',
   };
 };
