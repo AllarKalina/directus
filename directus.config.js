@@ -25,7 +25,8 @@ module.exports = function (env) {
     MAX_PAYLOAD_SIZE: '50mb',
 
     // File storage
-    // STORAGE_LOCATIONS: 's3,local',
+    STORAGE_LOCATIONS: 'local',
+    STORAGE_LOCAL_ROOT: './uploads',
     // STORAGE_S3_DRIVER: 's3',
     // STORAGE_S3_ROOT: '.',
     // STORAGE_S3_KEY: env.STORAGE_S3_KEY,
